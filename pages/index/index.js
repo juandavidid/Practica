@@ -7,7 +7,8 @@ Page({
     name:"Juan David",
     textBtt:"service",
 
-    userInput:"" // Inicializar una variable para almacenar el texto 
+    userInput:"", // Inicializar una variable para almacenar el texto ,
+    arrayData: ['Juan' , 'Andres' ,'Camilo']
 
   },
 

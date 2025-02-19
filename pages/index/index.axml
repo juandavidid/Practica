@@ -1,4 +1,9 @@
 <view   class="container">
+  <view a:for={{arrayData}} a:for-key="index" >
+    <text>{{arrayData[index]}}</text>
+  </view>
+  
+
   <text>Min program</text>
   <text>son aplicaciones ligeras</text>
 
