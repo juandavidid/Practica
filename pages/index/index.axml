@@ -1,4 +1,29 @@
+<view   class="container">
+  <text>Min program</text>
+  <text>son aplicaciones ligeras</text>
 
-<view>
-  Hello Word 
+  <!--Declarar variables-->
+  <!--interpolacion de datos-->
+  {{name}}
+
+  <button size="small" type="primary" class="btn" onTap="handleclick" data-text="services">{{textBtt}}</button>
+  <button size="default" type="primary" class="btn-next" onTap="handleclick" data-text="dataUsers">dataUsers</button>
+
+  <input type="text" placeholder="Escribe algo..."  onInput="handleInput" value="{{userInput}}" />
+
 </view>
+
+
+
+
+<!--
+<text>Mi nombre: Juan David</text>
+<textarea placeholder="Input multiple lines"></textarea>
+<input placeholder="Input" />
+<button size="default" type="primary">Button</button>
+<form>
+
+</form>
+
+-->
+

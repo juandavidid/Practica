@@ -1,0 +1,18 @@
+<view>
+
+  <view>
+    <text>Datos Personales</text>
+  </view>
+
+  <view>
+    <text>Nombre: {{ name }}</text>
+    <button size="default" type="primary" onTap="handlechange"  class="btn-nombre" data-text="changeName">Cambiar Nombre</button>
+  </view>
+
+  <view>
+    <text>Apellidos:{{ last_names }}</text>
+    <button size="default" type="primary" onTap="handlechange"  class="btn-apellido" data-text="changelastname">Cambiar Apellido</button>
+  </view>
+  
+  
+</view>

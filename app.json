@@ -1,8 +1,10 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/services/services",
+    "pages/dataUsers/dataUsers"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "Mi App"
   }
 }
